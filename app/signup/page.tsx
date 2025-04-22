@@ -17,6 +17,11 @@ export default function SignupPage() {
   const typeParam = searchParams.get("type")
   const [activeTab, setActiveTab] = useState<string>(typeParam === "influencer" ? "influencer" : "brand")
 
+     const style = {
+    "width" : "150px",
+    "border-radius" : "100%",
+  }
+
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
@@ -24,8 +29,7 @@ export default function SignupPage() {
         <div className="flex w-full max-w-md flex-col space-y-6 px-4 md:px-0">
           <div className="flex flex-col items-center space-y-2 text-center">
             <Link href="/" className="flex items-center gap-2">
-              <TrendingUp className="h-6 w-6 text-brand" />
-              <span className="font-bold">InfluenceConnect</span>
+              <img style={style} src="influencer connect.png" alt="" />
             </Link>
             <h1 className="text-2xl font-bold">Create an account</h1>
             <p className="text-sm text-muted-foreground">Enter your information to create an account</p>

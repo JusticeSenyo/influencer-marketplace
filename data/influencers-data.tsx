@@ -1,9 +1,9 @@
-export const influencersdata = [
+export const influencersData = [
   {
     id: 1,
     name: "Sweet Adjeley",
     handle: "@sweetadjeley",
-    image: "akosuaveePP.webp",
+    image: "/sweetadjeteyPP.jpeg",
     niche: "Food",
     followers: 520000,
     engagementRate: "4.8%",
@@ -25,7 +25,7 @@ export const influencersdata = [
     id: 2,
     name: "Chef Alhaji",
     handle: "@alhaji_theozzy",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/chefalhajyPP.jpg",
     niche: "Food",
     followers: 310000,
     engagementRate: "5.2%",
@@ -47,7 +47,7 @@ export const influencersdata = [
     id: 3,
     name: "Mr. Titanium",
     handle: "@kulbilafitness",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/stannerking bashPP.jpg",
     niche: "Fitness",
     followers: 284000,
     engagementRate: "6.1%",
@@ -154,4 +154,3 @@ export const influencersdata = [
     ],
   },
 ]
-

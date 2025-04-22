@@ -9,7 +9,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 export function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false)
-  const style = {
+   const style = {
     "width" : "150px",
     "border-radius" : "100%",
   }
